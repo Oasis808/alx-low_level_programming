@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - a code that prints the various return types
- * return:Always 0 (success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
