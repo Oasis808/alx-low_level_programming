@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - a code that prints the various return types
- * return: 0 (success)
-*/
+ * return:Always 0 (success)
+ */
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
