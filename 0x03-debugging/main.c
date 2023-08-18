@@ -2,7 +2,9 @@
 /**
  * main - Entry point of code
  * Return:Always  0 
+ *
  */
+
 int main(void)
 {
 int i;
