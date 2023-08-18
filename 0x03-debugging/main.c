@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - tEntry point of code
- * Return: 0
+ * main - Entry point of code
+ * Return:Always  0 
  */
 int main(void)
 {
