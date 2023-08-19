@@ -1,2 +1,3 @@
 # alx-low_level_programming
 This is my first project on C programming.
+C Programming can be tiring but worth it
