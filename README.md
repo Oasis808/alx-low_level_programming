@@ -1,3 +1,2 @@
-# alx-low_level_programming
-This is my first project on C programming.
-C Programming can be tiring but worth it
+0x08. C - Recursion
+A recursive function is a function that calls itself.
