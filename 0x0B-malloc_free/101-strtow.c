@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
-				
+
 /**
  * count_word - helper function to count the number of words in a string
  * @s: string to evaluate
@@ -22,11 +22,11 @@ flag = 1;
 w++;
 }
 }
-return (w);			
+return (w);
 }
 
 /**
- *strtow - splits a string into words	
+ *strtow - splits a string into words
  * @str: string to split
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
@@ -52,7 +52,7 @@ if (c)
 {
 end = i;
 tmp = (char *) malloc(sizeof(char) * (c + 1));
-if (tmp == NULL)																			
+if (tmp == NULL)
 return (NULL);
 while (start < end)
 *tmp++ = str[start++];
@@ -60,11 +60,11 @@ while (start < end)
 matrix[k] = tmp - c;
 k++;
 c = 0;
-}																				
-}															
-else if (c++ == 0)																	
-start = i;													
 }
-matrix[k] = NULL;																			
-return (matrix);									
+}
+else if (c++ == 0)
+start = i;
+}
+matrix[k] = NULL;
+return (matrix);
 }
