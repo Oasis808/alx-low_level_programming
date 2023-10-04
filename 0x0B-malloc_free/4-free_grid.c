@@ -4,6 +4,7 @@
 
 /**
  * free_grid - frees 2d array
+ *
  * @grid: 2d grid
  *
  * @height: height dimension of grid
@@ -19,7 +20,7 @@ int i;
 
 for (i = 0; i < height; i++)
 {
-free(grid[i]);										
+free(grid[i]);
 }
 free(grid);
 }
