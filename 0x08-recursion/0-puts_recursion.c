@@ -2,7 +2,9 @@
 /**
  * _puts_recursion - function like puts();
  * @s: input
- *
+ * This function prints a string recursively.
+ * Parameters:
+ * s - Pointer to the string to be printed.
  * Return: Always 0 (Success)
  */
 void _putchar(char c);
