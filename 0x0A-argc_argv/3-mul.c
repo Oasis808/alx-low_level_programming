@@ -26,9 +26,9 @@ digit = -digit;
 n = n * 10 + digit;
 f = 1;
 }
-else 
+else
 {
-if (f == 1) 
+if (f == 1)
 {
 break;
 }
@@ -44,11 +44,11 @@ return n;
  * @argv: array of arguments
  * Return: 0 (Success), 1 (Error)
  */
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
 int num1,num2;
 
-if (argc != 3) 
+if (argc != 3)
 {
 printf("Error\n");
 return 1;
