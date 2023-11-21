@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *Date: 21-11-2023;
  * _strdup - duplicate to new memory space location
  * @str: char
  * Return: 0
@@ -18,7 +17,7 @@ i = 0;
 while (str[i] != '\0')
 i++;
 aaa = malloc(sizeof(char) * (i + 1));
-if (aaa == NUL)
+if (aaa == NULL)
 return (NULL);
 
 for (r = 0; str[r]; r++)
